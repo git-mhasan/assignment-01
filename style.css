@@ -1,0 +1,169 @@
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.accent-color{
+    color: tomato;
+}
+
+.sec-prop{
+    margin: 1%;
+    padding: 20px 40px;
+}
+
+.flex-prop{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+       
+}
+
+.intro-item{
+    width: 50%;
+    padding: 10px;
+}
+.intro-line{
+    padding-left: 8px;
+    border-left: 6px solid;
+    border-image: linear-gradient(blue,  tomato);
+    border-image-slice: 1;
+    
+}
+.line-intro{
+    line-height: 55px;
+}
+.intro-item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+.link-btn{
+    text-decoration: none;
+    background-image: linear-gradient(tomato, orange);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+h3{
+    font-size: 35px;
+}
+h4{
+    font-size: 25px;
+}
+
+.exp-header{
+    text-align: center;
+}
+
+.exp-item{
+    /* background-color: thistle; */
+    display: block;
+    margin: 1%;
+    padding: 2%;
+    height: 400px;
+    width: 33.33%;
+    border-radius: 25px;
+    
+
+}
+
+.item-1{
+    background-color: thistle;
+}
+.item-2{
+    background-color: cadetblue;
+}
+.item-3{
+    background-color: cornsilk;
+}
+
+.exp-item img{
+    width: 40%;
+}
+
+.rev-contain{
+    
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding: 10px;
+}
+
+.bg-img-1{
+    background-image: url(./images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 25%;
+    margin: -10px;
+
+
+}
+
+.bg-img-2{
+    background-image: url(./images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position:right bottom;
+    background-size: 25%;
+    margin: -10px;
+}
+
+.rev-img{
+    padding: 2%;
+    width: 33.33%;
+}
+.rev-img img{
+    width: 100%;
+}
+
+.rev-content{
+    padding-left: 4%;
+    width: 66.67%;
+}
+
+.qr-img{
+    padding: 2%;
+    width: 50%;
+}
+.qr-img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    box-shadow: 2px 2px 20px 10px gray;
+}
+.contact-content{
+    
+    padding-left: 4%;
+    width: 50%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    
+}
+footer p {
+    height: 5px;
+    font-weight: 700;
+}
+
+.foooter-color{
+    color: tomato;
+}
